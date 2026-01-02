@@ -1,0 +1,972 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <title>Premium Packages & Labels</title>
+  <meta name="description" content="">
+  <meta name="keywords" content="">
+
+  <!-- Favicons -->
+  <link href="assets/img/logo.png" rel="icon">
+  <link href="assets/img/logo.png" rel="apple-touch-icon">
+
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com" rel="preconnect">
+  <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+  <!-- Main CSS File -->
+  <link href="assets/css/main.css" rel="stylesheet">
+
+</head>
+<style>
+.hero-slideshow {
+  position:absolute;
+  top:0;
+  left:0;
+  width:100%;
+  height:100%;
+}
+
+.hero-slide {
+  position:absolute;
+  width:100%;
+  height:100%;
+  object-fit:cover;
+  opacity:0;
+  transition:opacity 1.5s ease-in-out;
+}
+
+.hero-slide.active {
+  opacity:1;
+}
+
+.hero-overlay {
+  position:absolute;
+  inset:0;
+  background:rgba(0,0,0,0.6);
+  z-index:1;
+}
+</style>
+
+
+<body class="index-page">
+
+  <header id="header" class="header d-flex align-items-center fixed-top">
+    <div class="container position-relative d-flex align-items-center justify-content-between">
+
+      <a href="index.html" class="logo d-flex align-items-center me-auto me-xl-0">
+        <!-- Uncomment the line below if you also wish to use an image logo -->
+        <img src="assets/img/logo.png" alt="">
+        <h1 class="sitename">Premium Packaging & Labels</h1>
+      </a>
+
+      <nav id="navmenu" class="navmenu">
+        <ul>
+          <li><a href="#hero" class="active">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#portfolio">Package Gallery</a></li>
+          <li><a href="#pricing">Pricing</a></li>
+          <!-- <li><a href="blog.html">Blog</a></li> -->
+          <!-- <li class="dropdown"><a href="#"><span>Dropdown</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
+            <ul>
+              <li><a href="#">Dropdown 1</a></li>
+              <li class="dropdown"><a href="#"><span>Deep Dropdown</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
+                <ul>
+                  <li><a href="#">Deep Dropdown 1</a></li>
+                  <li><a href="#">Deep Dropdown 2</a></li>
+                  <li><a href="#">Deep Dropdown 3</a></li>
+                  <li><a href="#">Deep Dropdown 4</a></li>
+                  <li><a href="#">Deep Dropdown 5</a></li>
+                </ul>
+              </li>
+              <li><a href="#">Dropdown 2</a></li>
+              <li><a href="#">Dropdown 3</a></li>
+              <li><a href="#">Dropdown 4</a></li>
+            </ul>
+          </li> -->
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+        <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
+      </nav>
+
+      <!-- <a class="cta-btn" href="#about">Get Started</a> -->
+
+    </div>
+  </header>
+
+  <main class="main">
+
+ <!-- Hero Section -->
+<section id="hero" class="hero section dark-background" style="position:relative; overflow:hidden;">
+
+  <!-- Background Images -->
+  <div class="hero-slideshow">
+    <img src="assets/img/hero-bg1.jpg" class="hero-slide active">
+    <img src="assets/img/hero-bg2.jpg" class="hero-slide">
+    <img src="assets/img/hero-bg3.jpg" class="hero-slide">
+    <img src="assets/img/hero-bg4.jpg" class="hero-slide">
+  </div>
+
+  <!-- Content -->
+  <div class="container d-flex flex-column align-items-center text-center" style="position:relative; z-index:2;">
+    <h2 data-aos="fade-up" data-aos-delay="100">
+     Your one-stop destination for all your packaging needs
+    </h2>
+    <p data-aos="fade-up" data-aos-delay="200">
+      We provide premium packaging solutions for businesses of all sizes.
+    </p>
+    <div data-aos="fade-up" data-aos-delay="300">
+  <a 
+    href="https://www.instagram.com/reel/C576aurradk/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==" 
+    class="pulsating-play-btn"
+    target="_blank"
+    rel="noopener"
+    aria-label="View our packaging work on Instagram"
+  ></a>
+</div>
+  </div>
+
+  <!-- Overlay -->
+  <div class="hero-overlay"></div>
+
+</section>
+<!-- /Hero Section -->
+
+    <!-- About Section -->
+    <section id="about" class="about section">
+
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2>About</h2>
+        <p>We are a company dedicated to providing premium packaging solutions for businesses of all sizes.</p>
+      </div><!-- End Section Title -->
+
+      <div class="container">
+
+        <div class="row gy-4">
+
+          <div class="col-lg-6 content" data-aos="fade-up" data-aos-delay="100">
+            <p>
+              Premium Packages & Labels is committed to delivering high-quality packaging products that not only protect your goods but also enhance your brand image. Our team of experts works closely with clients to understand their unique needs and provide customized solutions that meet their requirements.
+            </p>
+            <ul>
+              <li><i class="bi bi-check2-circle"></i> <span>We are a company dedicated to providing premium packaging solutions for businesses of all sizes.</span></li>
+              <li><i class="bi bi-check2-circle"></i> <span>Our Customer Support is available 24/7 to assist you with any queries.</span></li>
+              <li><i class="bi bi-check2-circle"></i> <span>Your business is our priority.</span></li>
+            </ul>
+          </div>
+
+          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="200">
+            <p>We believe that every business deserves premium packaging solutions tailored to their specific needs. That is why we are committed to delivering exceptional service and quality products that exceed expectations. We are here to support your business every step of the way.</p>
+            <a href="#contact" class="read-more"><span>Get Started</span><i class="bi bi-arrow-right"></i></a>
+          </div>
+
+        </div>
+
+      </div>
+
+    </section><!-- /About Section -->
+<!-- Services Section -->
+<section id="services" class="services section">
+
+  <!-- Section Title -->
+  <div class="container section-title" data-aos="fade-up">
+    <h2>Services</h2>
+    <p>
+      Our services are thoughtfully crafted — every package or label piece with us
+      feels like <em>“it was meant to be”</em> for your business.
+    </p>
+  </div><!-- End Section Title -->
+
+  <div class="container">
+
+    <div class="row gy-4">
+
+      <!-- Cosmetics Packaging -->
+      <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
+        <div class="service-item position-relative">
+          <div class="icon">
+            <i class="bi bi-droplet"></i>
+          </div>
+          <a href="#" class="stretched-link">
+            <h3>Cosmetics Packaging</h3>
+          </a>
+          <p>
+            Elegant, protective packaging designed to elevate your beauty products
+            while maintaining quality, safety, and a premium shelf presence.
+          </p>
+        </div>
+      </div><!-- End Service Item -->
+
+      <!-- Jewelry Packaging -->
+      <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="200">
+        <div class="service-item position-relative">
+          <div class="icon">
+            <i class="bi bi-gem"></i>
+          </div>
+          <a href="#" class="stretched-link">
+            <h3>Jewelry Packaging</h3>
+          </a>
+          <p>
+            Refined packaging solutions that enhance the value of your jewelry,
+            creating a memorable unboxing experience without unnecessary cost.
+          </p>
+        </div>
+      </div><!-- End Service Item -->
+
+      <!-- Food Packaging -->
+      <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="300">
+        <div class="service-item position-relative">
+          <div class="icon">
+            <i class="bi bi-basket"></i>
+          </div>
+          <a href="#" class="stretched-link">
+            <h3>Food Packaging</h3>
+          </a>
+          <p>
+            Practical and visually appealing food packaging that preserves freshness,
+            meets safety standards, and strengthens your brand identity.
+          </p>
+        </div>
+      </div><!-- End Service Item -->
+
+      <!-- Shopping Bags -->
+      <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="400">
+        <div class="service-item position-relative">
+          <div class="icon">
+            <i class="bi bi-bag"></i>
+          </div>
+          <a href="#" class="stretched-link">
+            <h3>Shopping Bags</h3>
+          </a>
+          <p>
+            Stylish, durable shopping bags that reinforce your brand and leave
+            a lasting impression long after the purchase.
+          </p>
+        </div>
+      </div><!-- End Service Item -->
+
+      <!-- Customization & Labeling -->
+      <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="500">
+        <div class="service-item position-relative">
+          <div class="icon">
+            <i class="bi bi-tags"></i>
+          </div>
+          <a href="#" class="stretched-link">
+            <h3>Package Customization & Labeling</h3>
+          </a>
+          <p>
+            Custom packaging and labeling tailored to your brand — from sizes and
+            finishes to labels that communicate professionalism and trust.
+          </p>
+        </div>
+      </div><!-- End Service Item -->
+
+      <!-- Gift Packaging -->
+      <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="600">
+        <div class="service-item position-relative">
+          <div class="icon">
+            <i class="bi bi-gift"></i>
+          </div>
+          <a href="#" class="stretched-link">
+            <h3>Gift Packaging</h3>
+          </a>
+          <p>
+            Thoughtfully crafted gift packaging that transforms ordinary products
+            into meaningful, presentation-ready gifts.
+          </p>
+        </div>
+      </div><!-- End Service Item -->
+
+    </div>
+
+  </div>
+
+</section><!-- /Services Section -->
+
+
+    <!-- Call To Action Section -->
+    <section id="call-to-action" class="call-to-action section dark-background">
+
+      <img src="assets/img/cta-bg.jpg" alt="">
+
+      <div class="container">
+
+        <div class="row" data-aos="zoom-in" data-aos-delay="100">
+          <div class="col-xl-9 text-center text-xl-start">
+            <h3>Ready to place your order?</h3>
+            <p>Let’s craft packaging that represents your brand beautifully. Share your requirements with us and we’ll take care of the rest.</p>
+          </div>
+          <div class="col-xl-3 cta-btn-container text-center">
+            <a class="cta-btn align-middle" href="#contact">Ready! Order!</a>
+          </div>
+        </div>
+
+      </div>
+
+    </section><!-- /Call To Action Section -->
+
+    <!-- Features Section -->
+    <section id="features" class="features section">
+
+      <div class="container">
+
+        <div class="row gy-4">
+
+          <div class="features-image col-lg-6 order-lg-2" data-aos="fade-up" data-aos-delay="100"><img src="assets/img/features-bg.jpg" alt=""></div>
+
+          <div class="col-lg-6 order-lg-1">
+
+            <div class="features-item d-flex ps-0 ps-lg-3 pt-4 pt-lg-0" data-aos="fade-up" data-aos-delay="200">
+              <i class="bi bi-telephone flex-shrink-0"></i>
+              <div>
+                <h4>Get in Touch</h4>
+                <p>Reach out via WhatsApp, call, or our contact form and tell us what packaging you need, your quantity, and your brand style.</p>
+              </div>
+            </div><!-- End Features Item-->
+
+            <div class="features-item d-flex mt-5 ps-0 ps-lg-3" data-aos="fade-up" data-aos-delay="300">
+              <i class="bi bi-chat-square-text flex-shrink-0"></i>
+              <div>
+                <h4>Share Your Details</h4>
+                <p>We’ll review your requirements, suggest the best materials, sizes, and finishes, and provide a quote tailored to your needs.</p>
+              </div>
+            </div><!-- End Features Item-->
+
+            <div class="features-item d-flex mt-5 ps-0 ps-lg-3" data-aos="fade-up" data-aos-delay="400">
+              <i class="bi bi-list flex-shrink-0"></i>
+              <div>
+                <h4>Review Your Design</h4>
+                <p>Our team creates a mockup or label design for your packaging. You approve it before production starts, ensuring everything is just right.</p>
+              </div>
+            </div><!-- End Features Item-->
+
+            <div class="features-item d-flex mt-5 ps-0 ps-lg-3" data-aos="fade-up" data-aos-delay="500">
+              <i class="bi bi-basket flex-shrink-0"></i>
+              <div>
+                <h4>Production & Delivery</h4>
+                <p>Once approved, we produce your order with care and deliver it to your preferred location, ready to impress your customers.</p>
+              </div>
+            </div><!-- End Features Item-->
+
+          </div>
+
+        </div>
+
+      </div>
+
+    </section><!-- /Features Section -->
+
+    <!-- Clients Section -->
+    <section id="clients" class="clients section">
+
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+
+        <div class="row g-0 clients-wrap">
+
+          <div class="col-xl-3 col-md-4 client-logo">
+            <img src="assets/img/clients/client-1.png" class="img-fluid" alt="">
+          </div><!-- End Client Item -->
+
+          <div class="col-xl-3 col-md-4 client-logo">
+            <img src="assets/img/clients/client-2.png" class="img-fluid" alt="">
+          </div><!-- End Client Item -->
+
+          <div class="col-xl-3 col-md-4 client-logo">
+            <img src="assets/img/clients/client-3.png" class="img-fluid" alt="">
+          </div><!-- End Client Item -->
+
+          <div class="col-xl-3 col-md-4 client-logo">
+            <img src="assets/img/clients/client-4.png" class="img-fluid" alt="">
+          </div><!-- End Client Item -->
+
+          <div class="col-xl-3 col-md-4 client-logo">
+            <img src="assets/img/clients/client-5.png" class="img-fluid" alt="">
+          </div><!-- End Client Item -->
+
+          <div class="col-xl-3 col-md-4 client-logo">
+            <img src="assets/img/clients/client-6.png" class="img-fluid" alt="">
+          </div><!-- End Client Item -->
+
+          <div class="col-xl-3 col-md-4 client-logo">
+            <img src="assets/img/clients/client-7.png" class="img-fluid" alt="">
+          </div><!-- End Client Item -->
+
+          <div class="col-xl-3 col-md-4 client-logo">
+            <img src="assets/img/clients/client-8.png" class="img-fluid" alt="">
+          </div><!-- End Client Item -->
+
+        </div>
+
+      </div>
+
+    </section><!-- /Clients Section -->
+
+    <!-- Stats Section -->
+    <section id="stats" class="stats section dark-background">
+
+      <img src="assets/img/stats-bg.jpg" alt="" data-aos="fade-in">
+
+      <div class="container position-relative" data-aos="fade-up" data-aos-delay="100">
+
+        <div class="subheading">
+          <h3>Results that speak for themselves</h3>
+          <p>Each number reflects real work delivered, satisfied clients, and packaging solutions created with care and consistency.</p>
+        </div>
+
+        <div class="row gy-4">
+
+          <div class="col-lg-3 col-md-6">
+            <div class="stats-item text-center w-100 h-100">
+              <span data-purecounter-start="0" data-purecounter-end="238" data-purecounter-duration="1" class="purecounter"></span>
+              <p>Satisfied Clients</p>
+            </div>
+          </div><!-- End Stats Item -->
+
+          <div class="col-lg-3 col-md-6">
+            <div class="stats-item text-center w-100 h-100">
+              <span data-purecounter-start="0" data-purecounter-end="467" data-purecounter-duration="1" class="purecounter"></span>
+              <p>Completed Orders</p>
+            </div>
+          </div><!-- End Stats Item -->
+
+          <div class="col-lg-3 col-md-6">
+            <div class="stats-item text-center w-100 h-100">
+              <span data-purecounter-start="0" data-purecounter-end="11" data-purecounter-duration="1" class="purecounter"></span>
+              <p>Product Categories</p>
+            </div>
+          </div><!-- End Stats Item -->
+
+          <div class="col-lg-3 col-md-6">
+            <div class="stats-item text-center w-100 h-100">
+              <span data-purecounter-start="0" data-purecounter-end="3200" data-purecounter-duration="1" class="purecounter"></span>
+              <p>Packages Delivered</p>
+            </div>
+          </div><!-- End Stats Item -->
+
+        </div>
+
+      </div>
+
+    </section><!-- /Stats Section -->
+
+<!-- Portfolio Section -->
+<section id="portfolio" class="portfolio section">
+
+  <!-- Section Title -->
+  <div class="container section-title" data-aos="fade-up">
+    <h2>Package Gallery</h2>
+    <p>Explore packaging styles designed to suit different products, brands, and occasions.</p>
+  </div><!-- End Section Title -->
+
+  <div class="container">
+
+    <div class="isotope-layout" data-default-filter="*" data-layout="masonry" data-sort="original-order">
+
+      <ul class="portfolio-filters isotope-filters" data-aos="fade-up" data-aos-delay="100">
+        <li data-filter="*" class="filter-active">All</li>
+        <li data-filter=".filter-cosmetics">Cosmetics Packaging</li>
+        <li data-filter=".filter-jewelry">Jewelry Packaging</li>
+        <li data-filter=".filter-food">Food Packaging</li>
+        <li data-filter=".filter-bags">Shopping Bags</li>
+        <li data-filter=".filter-custom">Customization & Labeling</li>
+        <li data-filter=".filter-gift">Gift Packaging</li>
+      </ul><!-- End Portfolio Filters -->
+
+      <div class="row gy-4 isotope-container" data-aos="fade-up" data-aos-delay="200">
+
+        <!-- Cosmetics Packaging -->
+        <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-cosmetics">
+          <img src="assets/img/cosmetics1.jpg" class="img-fluid" alt="">
+          <div class="portfolio-info">
+            <h4>Cosmetics Packaging</h4>
+            <p>Premium beauty packaging</p>
+            <a href="assets/img/cosmetics1.jpg" data-gallery="portfolio-gallery-cosmetics" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+          </div>
+        </div>
+
+        <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-cosmetics">
+          <img src="assets/img/cosmetics2.jpg" class="img-fluid" alt="">
+          <div class="portfolio-info">
+            <h4>Cosmetics Packaging</h4>
+            <p>Clean & elegant finishes</p>
+            <a href="assets/img/cosmetics2.jpg" data-gallery="portfolio-gallery-cosmetics" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+          </div>
+        </div>
+
+        <!-- Jewelry Packaging -->
+        <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-jewelry">
+          <img src="assets/img/jewelry.jpg" class="img-fluid" alt="">
+          <div class="portfolio-info">
+            <h4>Jewelry Packaging</h4>
+            <p>Refined presentation</p>
+            <a href="assets/img/jewelry.jpg" data-gallery="portfolio-gallery-jewelry" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+          </div>
+        </div>
+
+        <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-jewelry">
+          <img src="assets/img/jewelry1.jpg" class="img-fluid" alt="">
+          <div class="portfolio-info">
+            <h4>Jewelry Packaging</h4>
+            <p>Luxury pouch experience</p>
+            <a href="assets/img/jewelry1.jpg" data-gallery="portfolio-gallery-jewelry" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+          </div>
+        </div>
+
+        <!-- Food Packaging -->
+        <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-food">
+          <img src="assets/img/FoodPackage.jpg" class="img-fluid" alt="">
+          <div class="portfolio-info">
+            <h4>Food Packaging</h4>
+            <p>Reusable sealable pouches</p>
+            <a href="assets/img/FoodPackage.jpg" data-gallery="portfolio-gallery-food" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+          </div>
+        </div>
+
+        <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-food">
+          <img src="assets/img/FoodPackage1.jpg" class="img-fluid" alt="">
+          <div class="portfolio-info">
+            <h4>Food Packaging</h4>
+            <p>Fresh & functional design</p>
+            <a href="assets/img/FoodPackage1.jpg" data-gallery="portfolio-gallery-food" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+          </div>
+        </div>
+
+        <!-- Shopping Bags -->
+        <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-bags">
+          <img src="assets/img/ShoppingBag.jpg" class="img-fluid" alt="">
+          <div class="portfolio-info">
+            <h4>Shopping Bags</h4>
+            <p>Durable branded bags</p>
+            <a href="assets/img/ShoppingBag.jpg" data-gallery="portfolio-gallery-bags" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+          </div>
+        </div>
+
+        <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-bags">
+          <img src="assets/img/hero-bg3.jpg" class="img-fluid" alt="">
+          <div class="portfolio-info">
+            <h4>Shopping Bags</h4>
+            <p>Stylish everyday packaging</p>
+            <a href="assets/img/hero-bg3.jpg" data-gallery="portfolio-gallery-bags" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+          </div>
+        </div>
+
+        <!-- Customization & Labeling -->
+        <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-custom">
+          <img src="assets/img/ThankYou1.jpg" class="img-fluid" alt="">
+          <div class="portfolio-info">
+            <h4>Customization & Labeling</h4>
+            <p>Brand-focused labeling</p>
+            <a href="assets/img/ThankYou1.jpg" data-gallery="portfolio-gallery-custom" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+          </div>
+        </div>
+
+        <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-custom">
+          <img src="assets/img/ThankYou.jpg" class="img-fluid" alt="">
+          <div class="portfolio-info">
+            <h4>Customization & Labeling</h4>
+            <p>Tailored brand finishes</p>
+            <a href="assets/img/ThankYou.jpg" data-gallery="portfolio-gallery-custom" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+          </div>
+        </div>
+
+        <!-- Gift Packaging -->
+        <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-gift">
+          <img src="assets/img/gift.jpg" class="img-fluid" alt="">
+          <div class="portfolio-info">
+            <h4>Gift Packaging</h4>
+            <p>Thoughtful gift presentation</p>
+            <a href="assets/img/gift.jpg" data-gallery="portfolio-gallery-gift" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+          </div>
+        </div>
+
+        <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-gift">
+          <img src="assets/img/gift1.jpg" class="img-fluid" alt="">
+          <div class="portfolio-info">
+            <h4>Gift Packaging</h4>
+            <p>Elegant finishing touches</p>
+            <a href="assets/img/gift1.jpg" data-gallery="portfolio-gallery-gift" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+          </div>
+        </div>
+
+      </div><!-- End Portfolio Container -->
+
+    </div>
+
+  </div>
+
+</section><!-- /Portfolio Section -->
+
+
+<!-- Packaging Carousel Section -->
+<section id="pricing" class="pricing section light-background">
+
+  <!-- Section Title -->
+  <div class="container section-title" data-aos="fade-up">
+    <h2>Packaging Items & Prices</h2>
+    <p>Explore our packaging options. Prices exclude labeling/branding. Contact us for personalized quotes, bulk orders, or delivery.</p>
+  </div>
+
+  <div class="container" data-aos="fade-up" data-aos-delay="100">
+
+    <!-- Carousel Wrapper -->
+    <div class="carousel-wrapper" style="position:relative; overflow:hidden;">
+
+      <!-- Carousel Track -->
+      <div class="carousel-track" style="display:flex; transition:transform 0.4s ease; gap:1rem;">
+
+        <!-- Item 1 -->
+        <div class="catalog-item" style="flex:0 0 250px; border:1px solid #ddd; border-radius:8px; padding:1rem; position:relative;">
+          <img src="assets/img/cosmetics1.jpg" alt="Cosmetic Box" style="width:100%; border-radius:5px;">
+          <h4 style="margin-top:0.5rem;">Cosmetic Bottles</h4>
+          <p>50 pieces – UGX 6,000</p>
+          <span style="position:absolute; top:10px; right:10px; background:red; color:white; padding:0.25rem 0.5rem; border-radius:5px; font-size:0.8rem;">30% off on 500+</span>
+        </div>
+
+        <!-- Item 2 -->
+        <div class="catalog-item" style="flex:0 0 250px; border:1px solid #ddd; border-radius:8px; padding:1rem; position:relative;">
+          <img src="assets/img/FoodPackage.jpg" alt="Food Container" style="width:100%; border-radius:5px;">
+          <h4 style="margin-top:0.5rem;">Transparent Pouches</h4>
+          <p>800 pieces – UGX 400</p>
+        </div>
+
+        <!-- Item 3 -->
+        <div class="catalog-item" style="flex:0 0 250px; border:1px solid #ddd; border-radius:8px; padding:1rem; position:relative;">
+          <img src="assets/img/gift.jpg" alt="Gift Box" style="width:100%; border-radius:5px;">
+          <h4 style="margin-top:0.5rem;">Gift Containers</h4>
+          <p>5 pieces – UGX 8,000</p>
+          <span style="position:absolute; top:10px; right:10px; background:green; color:white; padding:0.25rem 0.5rem; border-radius:5px; font-size:0.8rem;">Limited Offer</span>
+        </div>
+
+        <!-- Item 4 -->
+        <div class="catalog-item" style="flex:0 0 250px; border:1px solid #ddd; border-radius:8px; padding:1rem; position:relative;">
+          <img src="assets/img/Jewelry.jpg" alt="Jewelry Box" style="width:100%; border-radius:5px;">
+          <h4 style="margin-top:0.5rem;">Jewelry Pouches</h4>
+          <p>100 pieces – UGX 10,000</p>
+        </div>
+
+        <!-- Item 5 -->
+        <div class="catalog-item" style="flex:0 0 250px; border:1px solid #ddd; border-radius:8px; padding:1rem; position:relative;">
+          <img src="assets/img/hero-bg3.jpg" alt="Shopping Bag" style="width:100%; border-radius:5px;">
+          <h4 style="margin-top:0.5rem;">Shopping Bag (8" 12")</h4>
+          <p>50 pieces – UGX 6,000</p>
+          <span style="position:absolute; top:10px; right:10px; background:orange; color:white; padding:0.25rem 0.5rem; border-radius:5px; font-size:0.8rem;">Buy 500+ – 20% Off</span>
+        </div>
+
+      </div><!-- End Carousel Track -->
+
+      <!-- Carousel Arrows -->
+      <button class="carousel-prev" style="position:absolute; top:50%; left:0; transform:translateY(-50%); background:#333; color:white; border:none; padding:0.5rem 1rem; cursor:pointer; border-radius:5px;">&#10094;</button>
+      <button class="carousel-next" style="position:absolute; top:50%; right:0; transform:translateY(-50%); background:#333; color:white; border:none; padding:0.5rem 1rem; cursor:pointer; border-radius:5px;">&#10095;</button>
+
+    </div><!-- End Carousel Wrapper -->
+
+    <!-- General Notes / Terms -->
+    <div style="margin-top:1.5rem; font-size:0.9rem; color:#555;">
+      <p>💡 Prices shown are for packaging items only. Labeling/branding is optional and requires direct contact.</p>
+      <p>💡 Bulk discounts and special offers may apply. Contact us to discuss your order and get a personalized quote.</p>
+      <p>💡 Delivery services are available – please reach out via our <a href="#contact">contact form</a> or WhatsApp link.</p>
+    </div>
+
+  </div>
+
+</section>
+
+
+
+
+
+
+<!-- Faq Section -->
+<section id="faq" class="faq section">
+
+  <div class="container-fluid">
+
+    <div class="row gy-4">
+
+      <div class="col-lg-7 d-flex flex-column justify-content-center order-2 order-lg-1">
+
+        <div class="content px-xl-5" data-aos="fade-up" data-aos-delay="100">
+          <h3><span>Frequently Asked </span><strong>Questions</strong></h3>
+          <p>
+            Here are answers to some of the most common questions about our packaging, ordering process, and deliveries.
+          </p>
+        </div>
+
+        <div class="faq-container px-xl-5" data-aos="fade-up" data-aos-delay="200">
+
+          <!-- Delivery -->
+          <div class="faq-item faq-active">
+            <i class="faq-icon bi bi-question-circle"></i>
+            <h3>Do you offer deliveries, and which areas do you cover?</h3>
+            <div class="faq-content">
+              <p>
+                Yes, we offer deliveries within town and to selected surrounding areas. For customers outside our immediate location, we can arrange delivery through trusted transport services.
+              </p>
+            </div>
+            <i class="faq-toggle bi bi-chevron-right"></i>
+          </div><!-- End Faq item-->
+
+          <!-- Delivery Cost -->
+          <div class="faq-item">
+            <i class="faq-icon bi bi-question-circle"></i>
+            <h3>How much does delivery cost?</h3>
+            <div class="faq-content">
+              <p>
+                Delivery costs depend on your location and order size. We always confirm and agree on the delivery fee with you before dispatching your order.
+              </p>
+            </div>
+            <i class="faq-toggle bi bi-chevron-right"></i>
+          </div><!-- End Faq item-->
+
+          <!-- Working Days -->
+          <div class="faq-item">
+            <i class="faq-icon bi bi-question-circle"></i>
+            <h3>What are your working days and hours?</h3>
+            <div class="faq-content">
+              <p>
+                We operate from Monday to Saturday during standard business hours. Orders and inquiries received outside working hours are attended to the next business day.
+              </p>
+            </div>
+            <i class="faq-toggle bi bi-chevron-right"></i>
+          </div><!-- End Faq item-->
+
+          <!-- Custom Orders -->
+          <div class="faq-item">
+            <i class="faq-icon bi bi-question-circle"></i>
+            <h3>Do you handle custom packaging and labeling?</h3>
+            <div class="faq-content">
+              <p>
+                Absolutely. We specialize in customized packaging and labeling tailored to your product, brand colors, and quantity requirements.
+              </p>
+            </div>
+            <i class="faq-toggle bi bi-chevron-right"></i>
+          </div><!-- End Faq item-->
+
+          <!-- Minimum Order -->
+          <div class="faq-item">
+            <i class="faq-icon bi bi-question-circle"></i>
+            <h3>Is there a minimum order quantity?</h3>
+            <div class="faq-content">
+              <p>
+                Minimum order quantities vary depending on the type of packaging. We are happy to advise based on your needs and budget.
+              </p>
+            </div>
+            <i class="faq-toggle bi bi-chevron-right"></i>
+          </div><!-- End Faq item-->
+
+          <!-- Payment & Trust -->
+          <div class="faq-item">
+            <i class="faq-icon bi bi-question-circle"></i>
+            <h3>How do payments work?</h3>
+            <div class="faq-content">
+              <p>
+                Payments are agreed upon before production begins. This helps us ensure transparency, proper planning, and timely delivery of your order.
+              </p>
+            </div>
+            <i class="faq-toggle bi bi-chevron-right"></i>
+          </div><!-- End Faq item-->
+
+        </div>
+
+      </div>
+
+      <div class="col-lg-5 order-1 order-lg-2">
+        <img src="assets/img/faq.jpg" class="img-fluid" alt="" data-aos="zoom-in" data-aos-delay="100">
+      </div>
+
+    </div>
+
+  </div>
+
+</section><!-- /Faq Section -->
+
+
+
+  <!-- Contact Section -->
+<section id="contact" class="contact section light-background">
+
+  <!-- Section Title -->
+  <div class="container section-title" data-aos="fade-up">
+    <h2>Contact Us</h2>
+    <p>
+      Reach out to us for premium cosmetic and food packaging, custom labels, and reliable delivery support.
+    </p>
+  </div><!-- End Section Title -->
+
+  <div class="container" data-aos="fade" data-aos-delay="100">
+
+    <div class="row gy-4">
+
+      <div class="col-lg-4">
+
+        <!-- Address -->
+        <div class="info-item d-flex" data-aos="fade-up" data-aos-delay="200">
+          <i class="bi bi-geo-alt flex-shrink-0"></i>
+          <div>
+            <h3>Location</h3>
+            <p>
+              Cornerstone Plaza, AB 66/1<br>
+              Kafumbe Mukasa Road, Uganda
+            </p>
+          </div>
+        </div><!-- End Info Item -->
+
+        <!-- WhatsApp -->
+        <div class="info-item d-flex" data-aos="fade-up" data-aos-delay="300">
+          <i class="bi bi-telephone flex-shrink-0"></i>
+          <div>
+            <h3>Order via WhatsApp</h3>
+            <p>
+              <a href="https://wa.me/message/C7TZTPZXBULPA1" target="_blank">
+                Chat with us on WhatsApp
+              </a>
+            </p>
+          </div>
+        </div><!-- End Info Item -->
+
+        <!-- Instagram -->
+        <div class="info-item d-flex" data-aos="fade-up" data-aos-delay="400">
+          <i class="bi bi-instagram flex-shrink-0"></i>
+          <div>
+            <h3>Instagram</h3>
+            <p>@premium_packaging_and_labels_</p>
+          </div>
+        </div><!-- End Info Item -->
+
+      </div>
+
+      <!-- Contact Form -->
+      <div class="col-lg-8">
+        <form class="php-email-form" data-aos="fade-up" data-aos-delay="200">
+          <div class="row gy-4">
+
+            <div class="col-md-6">
+              <input type="text" name="name" class="form-control" placeholder="Your Name" required>
+            </div>
+
+            <div class="col-md-6">
+              <input type="text" name="phone" class="form-control" placeholder="Your Phone / WhatsApp Number" required>
+            </div>
+
+            <div class="col-md-12">
+              <input type="text" class="form-control" name="subject" placeholder="Packaging Type (Cosmetic / Food / Other)" required>
+            </div>
+
+            <div class="col-md-12">
+              <textarea class="form-control" name="message" rows="6" placeholder="Tell us about your packaging needs" required></textarea>
+            </div>
+
+            <div class="col-md-12 text-center">
+              <button type="submit">Send Inquiry</button>
+            </div>
+
+          </div>
+        </form>
+      </div><!-- End Contact Form -->
+
+    </div>
+
+  </div>
+
+</section><!-- /Contact Section -->
+
+
+  </main>
+  <script>
+  const slides = document.querySelectorAll('.hero-slide');
+  let currentSlide = 0;
+
+  setInterval(() => {
+    slides[currentSlide].classList.remove('active');
+    currentSlide = (currentSlide + 1) % slides.length;
+    slides[currentSlide].classList.add('active');
+  }, 5000); // Change image every 5 seconds
+</script>
+
+
+  <script>
+  const track = document.querySelector('.carousel-track');
+  const prevBtn = document.querySelector('.carousel-prev');
+  const nextBtn = document.querySelector('.carousel-next');
+  const itemWidth = document.querySelector('.catalog-item').offsetWidth + 16; // width + gap
+
+  let position = 0;
+
+  nextBtn.addEventListener('click', () => {
+    const maxScroll = track.scrollWidth - track.parentElement.offsetWidth;
+    position += itemWidth;
+    if(position > maxScroll) position = maxScroll;
+    track.style.transform = `translateX(-${position}px)`;
+  });
+
+  prevBtn.addEventListener('click', () => {
+    position -= itemWidth;
+    if(position < 0) position = 0;
+    track.style.transform = `translateX(-${position}px)`;
+  });
+</script>
+<footer id="footer" class="footer dark-background">
+  <div class="container text-center">
+
+    <!-- Brand Name -->
+    <h3 class="sitename">Premium Packaging & Labels</h3>
+
+    <!-- Brand Description -->
+    <p>
+      Delivering high-quality packaging and labeling solutions in Uganda.
+      Designed to elevate your product, protect your brand, and meet market standards.
+    </p>
+
+    <!-- Social Media Links -->
+    <div class="social-links d-flex justify-content-center">
+      <a href="#" aria-label="YouTube"><i class="bi bi-youtube"></i></a>
+      <a href="https://www.facebook.com/" target="_blank" aria-label="Facebook"><i class="bi bi-facebook"></i></a>
+      <a href="https://www.instagram.com/premium_packaging_and_labels_" target="_blank" aria-label="Instagram"><i class="bi bi-instagram"></i></a>
+      <a href="https://www.tiktok.com/@premium_packaging" aria-label="TikTok"><i class="bi bi-tiktok"></i></a>
+    </div>
+
+    <!-- Copyright -->
+    <div class="copyright mt-4">
+      <span>©</span>
+      <strong class="px-1 sitename">Premium Packaging & Labels</strong>
+      <span>Website demo – concept design.</span>
+    </div>
+
+  </div>
+</footer>
+
+
+  <!-- Scroll Top -->
+  <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Preloader -->
+  <div id="preloader"></div>
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
+  <script src="assets/vendor/imagesloaded/imagesloaded.pkgd.min.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+
+  <!-- Main JS File -->
+  <script src="assets/js/main.js"></script>
+
+</body>
+
+</html>
